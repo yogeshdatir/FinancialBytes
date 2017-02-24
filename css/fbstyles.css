@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Indie+Flower|Josefin+Sans:400,600,700|Sansita:400,700,800');
+/*Use the following CSS rules to specify these families:
+font-family: 'Sansita', sans-serif;
+font-family: 'Droid Serif', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Josefin Sans', sans-serif;*/
+
 .carousel-item img {
   width: 100%;
   overflow: hidden
+}
+
+/*.page {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  position: relative;
+}*/
+
+div #services img {
+  width: 225px;
+  height: 225px;
+}
+
+div #staff img {
+  width: 225px;
+  height: 225px; 
 }

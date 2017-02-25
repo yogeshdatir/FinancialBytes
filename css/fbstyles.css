@@ -7,19 +7,106 @@ font-family: 'Josefin Sans', sans-serif;*/
 
 .carousel-item img {
   width: 100%;
-  overflow: hidden
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-/*.page {
+body {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
   font-weight: 300;
-  font-size: 1.5em;
   position: relative;
-}*/
+}
 
-div #services img {
-  width: 225px;
-  height: 225px;
+/*Header*/
+.navbar {
+  padding: 30px 0;
+}
+
+.nav-link{
+  color: darkorange;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+header .nav a:hover {
+  color: fuchsia;
+}
+
+header .nav .active a {
+  color: cyan;
+  border-bottom: 4px dashed darkorange;
+}
+
+header .nav .active a:hover {
+  color: crimson;
+}
+
+header .navbar-brand {
+  padding-top: 12px;
+}
+
+header .navbar-brand img {
+  position: absolute;
+  max-width: 50px;
+  max-height: 42px;
+}
+
+header .navbar-brand h1 {
+  padding-left: 50px;
+  color: darkorange;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+header .navbar-brand span.subhead {
+  padding-left: 70px;
+  display: block;
+  font-family: 'Sansita', sans-serif;
+  font-size: 0.7em;
+}
+
+/*Page*/
+.page {
+  padding: 25px 0;
+}
+
+.page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*
+.page h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+*/
+
+/*Page Goal*/
+#goal {
+  background-color: chartreuse;
+  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  border-top: 20px solid rgba(258, 200, 86, 0.5);
+}
+
+/*Page Services */
+#services img.icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.service {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#services h2 {
+  padding-bottom: 10px;
 }
 
 div #staff img {

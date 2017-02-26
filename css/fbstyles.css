@@ -109,7 +109,28 @@ header .navbar-brand span.subhead {
   padding-bottom: 10px;
 }
 
+/*Page Staff*/
+#staff {
+  background-color: darkorchid;
+  background-image: linear-gradient(to top, #f6c0f9, #b25db7);
+  border-top: 20px solid rgba(28, 187, 219, 0.2);
+}
+
 div #staff img {
-  width: 225px;
-  height: 225px; 
+  width: 100%;
+}
+
+#staff p {
+  font-size: 0.8em;
+}
+
+#staff h2 {
+  font-size: 1.0em;
+  font-weight: 400;
+  padding-bottom: 5px;
+  color:beige;
+}
+
+.advisors {
+  margin: 10px 0;
 }

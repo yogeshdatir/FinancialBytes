@@ -19,14 +19,24 @@ body {
 }
 
 /*Header*/
-.navbar {
-  padding: 30px 0;
+.navbar-light {
+  color: darkorange;
+  padding: 60px 0;
 }
 
-.nav-link{
-  color: darkorange;
-  font-size: x-large;
-  font-weight: 400;
+.navbar-light .navbar-nav .nav-link{
+  color: coral;
+  font-size: large;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .active > .nav-item {
+  background-color: rgba(37, 41, 48, 0.1);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: wheat;
+  
 }
 
 header .nav a:hover {
@@ -35,10 +45,10 @@ header .nav a:hover {
 
 header .nav .active a {
   color: cyan;
-  border-bottom: 4px dashed darkorange;
+  border-bottom: 4px solid darkorange;
 }
 
-header .nav .active a:hover {
+header .navbar-light .nav-item .active a:hover {
   color: crimson;
 }
 
@@ -65,6 +75,26 @@ header .navbar-brand span.subhead {
   display: block;
   font-family: 'Sansita', sans-serif;
   font-size: 0.7em;
+}
+
+.navbar button {
+  margin-top: 15px;
+  border-color: blueviolet;
+}
+
+@media(max-width:34em) {
+  .navbar .nav .nav-item {
+    float: none;
+  }
+  
+  .navbar .nav {
+    float: none;
+  }
+  
+  .navbar .collapse.in, 
+  .navbar .collapsing {
+    clear: both;
+  }
 }
 
 /*Page*/

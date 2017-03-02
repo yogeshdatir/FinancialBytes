@@ -10,6 +10,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/fbstyles.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!--
+    or use the version hosted by CDNJS
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    -->
     <script src="js/prefixfree.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,8 +48,8 @@
         </div><!--container-->
       </nav>
 
-      <div class="carousel slide" id="car" data-ride="carousel" data-interval="false">
-        <div class="carousel-inner">
+      <div class="carousel fade" id="car" data-ride="carousel" data-interval=3000>
+        <div class="carousel-inner fullheight">
           <div class="carousel-item active"><img class="d-block img-fluid" src="img/fincarousol1.jpg" alt="Finance 1"></div>
           <div class="carousel-item"><img class="d-block img-fluid" src="img/fincarousol2.jpg" alt="Finance 2"></div>
           <div class="carousel-item"><img class="d-block img-fluid" src="img/fincarousol3.jpg" alt="Finance 3"></div>
@@ -204,7 +209,7 @@
           <h1>Testimonials</h1>
           <div class="row">
             
-            <blockquote class="col-sm-6" id="inv1">
+            <blockquote class="col-sm-6 clo-lg-3" id="inv1">
               <div class="quote">
                 <span class="intro">"I signed up to Financial Bytes when i got my first job.</span>
                 <span class="more">Started to save through them from my first salary. Financial Bytes has helped me to set clear financial goals and save for them. My savings will only increase from here."</span>
@@ -213,7 +218,7 @@
               </div>
             </blockquote>
 
-            <blockquote class="col-sm-6" id="inv2">
+            <blockquote class="col-sm-6 clo-lg-3" id="inv2">
               <div class="quote">
                 <span class="intro">"Financial Bytes's online advisory platform is simple, reliable and easy to accss from any place to manage my personal finance.</span>
                 <span class="more">With their hassle free investment process there was remarkable increase in my investable surplus within no time. Regular review and rebalance of my portfolio is an added advantage."</span>
@@ -222,7 +227,7 @@
               </div>
             </blockquote>
 
-            <blockquote class="col-sm-6" id="inv3">
+            <blockquote class="col-sm-6 clo-lg-3" id="inv3">
               <div class="quote">
                 <span class="intro">"Based on my current financial state, future goals and risk appetite Financial Bytes provided me with an impressive custom portfolio</span>
                 <span class="more">with exposure to multiple asset classes. They also helped me save additional 10% every month. Their prompt & responsive client servicing further increased my admiration for what Financial Bytes is doing for the working professional."</span>
@@ -231,7 +236,7 @@
               </div>
             </blockquote>
 
-            <blockquote class="col-sm-6" id="inv4">
+            <blockquote class="col-sm-6 clo-lg-3" id="inv4">
               <div class="quote">
                 <span class="intro">"I chose Financial Bytes as my financial advisor to save money for my family right from first salary.</span>
                 <span class="more">After taking Financial Bytes’s advice I could save money optimally and could relate where I would stand financially in future. Recommended to all working individuals."</span>
@@ -270,5 +275,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/myscript.js"></script>
+    <script src="js/jquery.nav.js"></script>
   </body>
 </html>
